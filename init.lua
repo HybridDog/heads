@@ -40,7 +40,7 @@ for i = 1, headnumber do
 	    drop = "heads:head_"..i,
 	    on_rightclick = function(pos, node, clicker)
 	        node.name = "heads:head_"..x
-	        minetest.env:set_node(pos, node)
+	        minetest.set_node(pos, node)
 	        if math.random(1, 3) == 1 then
 				minetest.sound_play({name="heads_ow", pos=pos,})
 			end
