@@ -21,13 +21,13 @@ for i = 1, headnumber do
 	        "heads_"..i.."_right.png",
 	        "heads_"..i.."_back.png",
 	        "heads_"..i.."_face.png",
-	    },	    
+	    },
 	    paramtype = "light",
 	    paramtype2 = "facedir",
 	    node_box = {
 	        type = "fixed",
-	        fixed = {       
-	            { -0.25, -0.5, -0.25, 0.25, 0.0, 0.25, },   			
+	        fixed = {
+	            { -0.25, -0.5, -0.25, 0.25, 0.0, 0.25, },
 	        },
 	    },
 	    sunlight_propagates = true,
@@ -53,7 +53,7 @@ for i = 1, headnumber do
 			end
 	    end,
 	})
-	
+
 end
 
 -- register head craft
